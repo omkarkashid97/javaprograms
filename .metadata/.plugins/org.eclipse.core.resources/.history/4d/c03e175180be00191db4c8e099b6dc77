@@ -1,0 +1,26 @@
+package com.bridgelabz.functional;
+import java.lang.Math;
+import java.util.Scanner;
+
+public class Distance
+{
+	public static void main(String args[])
+	{
+		Scanner scanner=new Scanner(System.in);
+
+	    System.out.print("Enter values for calculating euclidean distance : ");
+	    System.out.print("Enter value of x : ");
+		double x=scanner.nextInt();
+	    System.out.print("Enter value of y : ");
+		double y=scanner.nextInt();
+		
+		double a=Math.pow(x,2);
+		double b=Math.pow(y,2);
+		double c=a+b;
+
+	    System.out.println("Euclidean dtstance : "c);
+
+
+	}
+
+}

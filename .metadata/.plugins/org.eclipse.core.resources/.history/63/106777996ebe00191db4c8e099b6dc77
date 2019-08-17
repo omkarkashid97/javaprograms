@@ -1,0 +1,28 @@
+package basic;
+import java.util.Scanner;
+
+public class IntOpt
+{
+  public static void main(String args[])
+  {
+	  int a,b,c,op1,op2,op3,op4;
+	  Scanner sc= new Scanner(System.in);
+	  System.out.println("enter value of a : ");
+	  a=sc.nextInt();
+	  System.out.println("enter value of b : ");
+	  b=sc.nextInt();
+	  System.out.println("enter value of c : ");
+	  c=sc.nextInt();
+	  
+	  op1=a+b*c;
+	  System.out.println("a+b*c : "+op1);
+	  op2=a*b+c;
+	  System.out.println("a*b+c : "+op2);
+	  op3=c+a/b;
+	  System.out.println("c+a/b : "+op3);
+	  op4=a%b+c;
+	  System.out.println("a%b+c : "+op4);
+	  
+  }
+
+}

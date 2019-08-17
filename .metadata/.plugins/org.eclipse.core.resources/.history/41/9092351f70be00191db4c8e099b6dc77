@@ -1,0 +1,12 @@
+package basic;
+
+public class NoSuchMethod
+{ 
+	public static void print() {
+	  System.out.println("enter value of a : ");
+	}
+      public static void main(String args[])
+      {
+    	  print();
+      }
+}	

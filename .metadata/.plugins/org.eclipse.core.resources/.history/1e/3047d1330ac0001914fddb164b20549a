@@ -1,0 +1,26 @@
+package com.bridgelabz.functional;
+import java.util.Scanner;
+import java.lang.Math;
+
+public class Quadratic
+{
+	public static void main(String args[])
+	{
+		int a,b,c;
+		Scanner scanner=new Scanner(System.in);
+	    System.out.print("Enter value of a : ");
+		a=scanner.nextInt();
+	    System.out.print("Enter value of b : ");
+		b=scanner.nextInt();
+	    System.out.print("Enter value of c : ");
+		c=scanner.nextInt();
+
+		double d=b*b-4*a*c;
+		double r1=(-b+Math.sqrt(d))/(2*a);
+		double r2=(-b-Math.sqrt(d))/(2*a);
+        
+	    System.out.print("two roots : root1="+r1+"  root2"+r2);
+
+	}
+	
+}

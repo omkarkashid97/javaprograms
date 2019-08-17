@@ -1,0 +1,22 @@
+package com.bridgelabz.functional;
+import java.util.Scanner;
+
+public class IntOpt
+{
+  public static void main(String args[])
+  {
+	  int a,b,c;
+	  Scanner sc=new Scanner(System.in);
+	  System.out.println("enter value of a : ");
+	  a=sc.nextInt();
+	  System.out.println("enter value of b : ");
+	  b=sc.nextInt();
+	  System.out.println("enter value of c : ");
+	  c=sc.nextInt();
+	  
+	  Utility o=new Utility();
+	  o.opI(a,b,c);
+	  
+  }
+
+}

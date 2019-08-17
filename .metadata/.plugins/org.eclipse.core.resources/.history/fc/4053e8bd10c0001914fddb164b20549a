@@ -1,0 +1,20 @@
+package com.bridgelabz.logical;
+import java.util.Random;
+
+public class Stats5
+{
+	public static void main(String args[])
+	{
+		double a[]=new double[6];
+		for(int i=0;i<5;i++)
+		{
+			a[i]=Math.random();
+			System.out.print(" , "+a[i]);
+		}
+		
+		double min=Math.min(a[0],a[1]);
+		
+		System.out.println(" , min= "+min);
+
+	}
+}

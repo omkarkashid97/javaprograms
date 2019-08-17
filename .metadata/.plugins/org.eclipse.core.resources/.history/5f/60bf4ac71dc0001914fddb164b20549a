@@ -1,0 +1,10 @@
+package com.bridgelabz.logical;
+
+
+public class TemperatureConversion
+{
+	public static void main(String args[])
+	{
+		
+	}
+}
