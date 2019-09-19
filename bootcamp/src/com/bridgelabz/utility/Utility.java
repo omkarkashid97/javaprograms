@@ -33,7 +33,7 @@ public class Utility
 		  System.out.println("a%b+c : "+op4);
 	}
 	
-	public void distance(double x,double y)
+	public static void distance(double x,double y)
 	{
 		double a=Math.pow(x,2);
 		double b=Math.pow(y,2);
