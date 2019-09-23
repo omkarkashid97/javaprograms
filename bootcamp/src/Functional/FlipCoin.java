@@ -17,6 +17,7 @@ public class FlipCoin
 				hq++;
 		}
 		System.out.println("Perecentage of head vs tail : "+(hq*100)/10);
+		System.out.println("Perecentage of tail vs head : "+(tq*100)/10);
 
 	}
 
